@@ -5,4 +5,6 @@ jobs:
    runs-on: ubuntu-latest
    steps:
      - name: hello sushmitha
-       run: echo "hello github action" 
+       run: | 
+        echo "hello github action" 
+        echo "hello sushmitha goud" 
