@@ -6,15 +6,4 @@ jobs:
    steps:
      - name: hello sushmitha
        run: echo "hello build"         
-  test:
-   runs-on: ubuntu-latest
-   needs: build
-   steps:
-     - name: hello sushmitha
-       run: echo "hello test"
-  deploy:
-   runs-on: ubuntu-latest
-   needs: test
-   steps:
-     - name: hello sushmitha
-       run: echo "deploy" 
+ 
